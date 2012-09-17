@@ -10,6 +10,8 @@ from matplotlib import rc             # Configuration files
 import matplotlib.pyplot as pyplot    # A plotting framework similar to MATLAB
 #rc('text', usetex=True)               # For beautiful mathematics in figures
 
+#surr. kjeeeeeeeedelig
+
 def make1DRandomWalkByTossingCoins(nsteps):
 # Generate a one-dimensional random walk of length 'nsteps' by throwing (virtual) coins
     randomSteps = numpy.random.randint(1, 7, nsteps)
